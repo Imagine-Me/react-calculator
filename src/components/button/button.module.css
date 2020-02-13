@@ -1,0 +1,14 @@
+.NumberButton {
+    font-size: 30px;
+    width: 23%;
+    padding: 15px;
+    color: black;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.NumberButton:hover{
+    background-color: rgba(77, 72, 72, 0.336);
+    cursor: pointer;
+}

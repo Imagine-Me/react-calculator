@@ -1,8 +1,9 @@
 import React from 'react';
-import './input.css';
+import classes from './input.module.css';
 
 const input = (props) => {
-    return <input className="input color-primary" type="text" />
+    const styles = [classes.Input,classes.ColorPrimary]
+    return <input className={styles.join(" ")} type="text" />
 }
 
 export default input;

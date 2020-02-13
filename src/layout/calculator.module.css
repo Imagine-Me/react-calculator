@@ -1,0 +1,16 @@
+.Calculator{
+    width: 98%;
+    margin: auto;
+}
+.ButtonGroup{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(min-width: 600px){
+    .Calculator{
+        width: 600px;
+    }
+}
